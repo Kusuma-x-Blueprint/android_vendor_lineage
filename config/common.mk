@@ -13,6 +13,13 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
 endif
 
+# Sign with own key
+ifneq ($(OWN_KEYS_DIR),)
+$(shell ln -sf $(OWN_KEYS_DIR) user-keys)
+PRODUCT_DEFAULT_DEV_CERTIFICATE := user-keys/releasekey
+PRODUCT_OTA_PUBLIC_KEYS := user-keys/releasekey
+endif
+
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
