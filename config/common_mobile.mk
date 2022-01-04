@@ -81,6 +81,10 @@ PRODUCT_PACKAGES += \
     LineageNavigationBarNoHint \
     NavigationBarMode2ButtonOverlay
 
+# Enable whole-program R8 Java optimizations for SystemUI, but also
+# allow explicit overriding for testing and development.
+SYSTEMUI_OPTIMIZE_JAVA ?= true
+
 # Face Unlock
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
