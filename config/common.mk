@@ -109,6 +109,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     build-manifest
 
+# Extra packages
+PRODUCT_PACKAGES += \
+    ParallelSpace
+
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
