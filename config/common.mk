@@ -224,7 +224,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
-    NetworkStackOverlay
+    NetworkStackOverlay \
+    SimpleDeviceConfigOverlay
 
 # Translations
 CUSTOM_LOCALES += \
