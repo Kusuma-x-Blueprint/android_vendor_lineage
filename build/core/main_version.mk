@@ -23,3 +23,9 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
 # LineageOS Platform Internal Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.lineage.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
+
+# Extra System Version
+ADDITIONAL_SYSTEM_PROPERTIES += \
+    ro.extra.version.number=$(EXTRA_PRODUCT_VERSION_NUMBER) \
+    ro.extra.version.codename=$(EXTRA_PRODUCT_VERSION_CODENAME) \
+    ro.extra.version.url=$(EXTRA_PRODUCT_VERSION_URL)
