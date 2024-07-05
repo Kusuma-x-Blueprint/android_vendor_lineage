@@ -111,6 +111,7 @@ PRODUCT_PACKAGES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
+    Eggstra \
     ParallelSpace
 
 # Lineage packages
