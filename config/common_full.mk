@@ -29,5 +29,10 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
+    FontFiraSansOverlay \
+    FontFredokaOverlay \
+    FontGoogleSansOverlay \
+    FontInterOverlay \
     FontLatoOverlay \
+    FontOPlusSansOverlay \
     FontRubikOverlay
