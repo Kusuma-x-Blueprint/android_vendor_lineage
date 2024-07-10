@@ -13,6 +13,7 @@ PRODUCT_PACKAGES += \
     Eleven \
     Etar \
     Profiles \
+    QrCodeScanner \
     Recorder \
     Seedvault
 
