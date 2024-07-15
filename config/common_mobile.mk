@@ -48,6 +48,7 @@ endif
 
 # Customizations
 PRODUCT_PACKAGES += \
+    ExtraNavigationBarNoHintKeyboard \
     IconPackCircularAndroidOverlay \
     IconPackCircularLauncherOverlay \
     IconPackCircularSettingsOverlay \
