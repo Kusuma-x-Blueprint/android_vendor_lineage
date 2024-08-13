@@ -17,7 +17,7 @@ PRODUCT_PACKAGES += \
     Backgrounds \
     ExactCalculator \
     GlimpsePrebuilt \
-    Jelly
+    MulchPrebuilt
 
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
